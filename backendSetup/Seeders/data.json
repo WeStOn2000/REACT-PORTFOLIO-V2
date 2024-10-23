@@ -1,0 +1,17 @@
+{
+    "Users": [
+      {
+        "firstName": "Weston",
+        "lastName": "Rwigema", 
+        "emailAddress": "Weston2000@gmail.com",
+        "password": "Weston123"
+      }
+    ],
+    "Comments": [
+      {
+        "userId": 1,  
+        "content": "Example: This Portfolio is an amazing way to showcase the power of programming languages"
+      }
+    ]
+  }
+  

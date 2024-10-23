@@ -1,12 +1,12 @@
 'user strict'
 
-const {Model, DataTypes, Sequelize, } = require('sequelize')
-const brcypt = require('bcryptjs');
+const {Model, DataTypes, } = require('sequelize')
+const bcrypt = require('bcryptjs');
 
-module.exports = (Sequelize, DataTypes) => {
+module.exports = (sequelize) => {
         class User extends Model{
             static associate(models){
-                User.hasOne(models.comment,{
+                User.hasOne(models.Comment,{
                    foreignKey: 'userId',
                     as: 'comments'
                 });
