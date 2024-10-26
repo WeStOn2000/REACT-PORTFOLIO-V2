@@ -7,8 +7,8 @@ module.exports = (sequelize) => {
     static associate(models) {
       // Define the one-to-one association with User
       Comment.belongsTo(models.User, {
-        foreignKey: 'userId', // The foreign key in the Comment model
-        as: 'user' // Alias for the User association
+        foreignKey: 'userId', 
+        as: 'user' 
       });
     }
   }

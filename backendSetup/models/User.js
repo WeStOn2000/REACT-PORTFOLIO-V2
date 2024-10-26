@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 module.exports = (sequelize) => {
         class User extends Model{
             static associate(models){
-                User.hasOne(models.Comment,{
+                User.hasMany(models.Comment,{
                    foreignKey: 'userId',
                     as: 'comments'
                 });

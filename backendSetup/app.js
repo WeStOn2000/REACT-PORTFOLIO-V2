@@ -32,7 +32,7 @@ app.use((req,res,) => {
 //GLOBAL ERROR HANDLER
 app.use((err,req,res,next)=>{
     res.status(500).json({
-        message: "An unexpected error occurred"
+        message: "Internal server error occurred"
     })
     next();
 })
