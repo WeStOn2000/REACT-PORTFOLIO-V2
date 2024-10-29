@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 //Exports and displays Routes & pages to the Dom 
- export const App = () => {
+ const App = () => {
   return (
     <div>
       <Header />
@@ -26,4 +26,5 @@ import Footer from "./components/Footer";
   );
 };
 
+export default App;
 
