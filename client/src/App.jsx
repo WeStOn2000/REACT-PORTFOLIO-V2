@@ -1,24 +1,29 @@
-import { useState } from 'react';
+"use strict";
 
-function Counter() {
-  // Define the state for the count
-  let [count, setCount] = useState(0);
+import { Routes, Route } from "react";
 
+//Importing components
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
+//Exports and displays Routes & pages to the Dom 
+ export const App = () => {
   return (
-    <div className='text-center'>
-      <div className='flex justify-center items-center'>
-        {/* Button with hover effect */}
-        <button
-          className='bg-blue-500 text-white py-2 px-4 rounded mr-4 hover:bg-blue-700'
-          onClick={() => setCount(count + 1)}
-        >
-          CLICK ME
-        </button>
-        {/* Display the count */}
-        <p className='text-2xl'>{count}</p>
-      </div>
+    <div>
+      <Header />
+      <main>
+        <Routes>
+          <Route path='/' element = {<Home/>} />
+          <Route path="/Abput" element= {<About/>}  />
+         <Route path = '/Projects' element= { <Projects />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   );
-}
+};
 
-export default Counter;
+
