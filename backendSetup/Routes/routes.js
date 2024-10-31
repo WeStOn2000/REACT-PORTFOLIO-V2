@@ -35,7 +35,6 @@ router.get('/user', asyncHandler(async (req, res) => {
     res.status(200).json(usersWithComments);
     }
   }));
-//
 
 
 module.exports = router;
