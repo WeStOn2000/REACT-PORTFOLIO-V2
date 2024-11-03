@@ -1,6 +1,6 @@
 'use strict'
 import { HERO_CONTENT } from "../constants"
-import about from "../assets/about.jpeg"
+import profiles from "../assets/profile.jpeg"
 const profile = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
@@ -15,7 +15,7 @@ const profile = () => {
      </div>  
      <div className="w-full lg:w-1/2 lg:p-8">
      <div className="flex justify-center">
-      <img src={about} alt="profile"/>
+      <img src={profiles} alt="profile"/>
      </div>
      </div> 
     </div>
