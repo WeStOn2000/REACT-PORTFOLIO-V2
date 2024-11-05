@@ -1,7 +1,9 @@
+//Importing the components
 import Nav from "./components/nav";
 import Profile from "./components/profile";
 import About from "./components/about";
 import Tech from "./components/tech";
+import XP from "./components/Xp";
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
         <Profile />
         <About />
         <Tech />
+        <XP />
       </div>
     </div>
   );

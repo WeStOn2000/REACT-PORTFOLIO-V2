@@ -1,5 +1,5 @@
-'use strict'
-import {RiReactjsLine } from "react-icons/ri";
+"use strict";
+import { RiReactjsLine } from "react-icons/ri";
 import { RiDatabase2Line } from "react-icons/ri";
 import { RiJavascriptLine } from "react-icons/ri";
 import { RiNodeTree } from "react-icons/ri";
@@ -8,14 +8,13 @@ import { RiGitBranchLine } from "react-icons/ri";
 import { RiGithubLine } from "react-icons/ri";
 import { RiTailwindCssLine } from "react-icons/ri";
 
-
 const tech = () => {
   return (
     <div className="border-b border-neutral-800 pb-24">
       <h2 className="my-20 text-center text-4xl">TECH STACK</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-            <RiReactjsLine className="text-7xl text-cyan-400"/>
+          <RiReactjsLine className="text-7xl text-cyan-400" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <RiDatabase2Line className="text-7xl text-blue-500" />
@@ -40,7 +39,7 @@ const tech = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default tech
+export default tech;
