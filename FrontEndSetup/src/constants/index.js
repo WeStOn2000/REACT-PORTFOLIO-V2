@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.png";
+import project1 from "../assets/projects/Project-1.png";
+import project2 from "../assets/projects/Project-2.png";
+import project3 from "../assets/projects/Project-3.png";
+import project4 from "../assets/projects/Project-4.png";
 
 export const HERO_CONTENT = `I'm Weston Rwigema, a dedicated and passionate Full Stack JavaScript Developer. I specialize in building dynamic, scalable web applications using modern technologies like React, Javascript, Node.js, Express, and SQLite. With a strong foundation in both front-end and back-end development, I am eager to bring my skills to a collaborative team and take on new challenges. I am also comfortable working with other tools and technologies as needed, and I'm always eager to learn new things`;
 
@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Displaying expertise in HTML, JavaScript, Pug, Express, and CSS, I have created five impressive projects. These projects showcase dynamic web applications, utilizing a phrase engine for content manipulation. The CSS files are meticulously styled with customized colors and background colors, enhancing the visual appeal. Additionally, the font family has been changed to a classic style, providing a timeless aesthetic that complements the modern functionality of the applications.",
-    technologies: ["HTML", "CSS", "Pug", "Javascript"],
+    technologies: ["HTML", "CSS", "Pug", "Javascript", "Express"],
   },
   {
     title: "Grocery List",
