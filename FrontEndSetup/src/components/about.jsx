@@ -4,7 +4,7 @@ import About from "../assets/about.jpeg";
 
 const about = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div className="border-b border-neutral-900 pb-4" data-aos="fade-up" >
       <h2 className="my-20 text-center text-4xl">
         About <span className="text-neutral-500">Me</span>
       </h2>

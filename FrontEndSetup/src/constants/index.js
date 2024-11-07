@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 export const HERO_CONTENT = `I'm Weston Rwigema, a dedicated and passionate Full Stack JavaScript Developer. I specialize in building dynamic, scalable web applications using modern technologies like React, Javascript, Node.js, Express, and SQLite. With a strong foundation in both front-end and back-end development, I am eager to bring my skills to a collaborative team and take on new challenges. I am also comfortable working with other tools and technologies as needed, and I'm always eager to learn new things`;
 
@@ -9,68 +9,64 @@ export const ABOUT_TEXT = `I’m a passionate Full Stack Developer with a solid 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "2024 - Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Personal Projects",
+    description:`Proficient in JavaScript, React, Node.js, and Express, with
+    hands-on experience in developing user-friendly applications.
+    Highlights include building RESTful APIs, implementing user
+    authentication, and optimizing databases with SQLite,
+    demonstrating strong problem-solving and collaboration skills
+    throughout projects.`,
+    technologies: ["Javascript", "React.js", "RESTAPI", "SQL", "TailwindCss", "Node.js", "Express"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    role: "Digital Marketing",
+    company: "Shopify Stores",
+    description: `I specialize in SEO-optimized content creation, e-commerce
+product management, and audience-focused copywriting for a
+Shopify store. My skills include keyword research, product
+listing optimization, and crafting persuasive descriptions to
+improve visibility, attract traffic, and increase conversions in
+digital retail.`,
+    technologies:[]
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "BOOK COURSES",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This project is a Full Stack JavaScript application that demonstrates the use of React, React Context, React Hooks, React Router, and Express with SQLite for creating, retrieving, updating, and deleting course data. It integrates both Client-Side Rendering (CSR) and Server-Side Rendering (SSR) to provide a seamless experience for authenticated users.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "SQLITE", "RESTApi", "Javascript"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Displaying expertise in HTML, JavaScript, Pug, Express, and CSS, I have created five impressive projects. These projects showcase dynamic web applications, utilizing a phrase engine for content manipulation. The CSS files are meticulously styled with customized colors and background colors, enhancing the visual appeal. Additionally, the font family has been changed to a classic style, providing a timeless aesthetic that complements the modern functionality of the applications.",
+    technologies: ["HTML", "CSS", "Pug", "Javascript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Grocery List",
+    image: project3,
+    description:
+      "I built a React grocery list app where I can add, mark, and remove items easily. It helps me manage my shopping efficiently and stay organized!",
+    technologies: ["HTML", "CSS", "React", "Javascript"],
+  },
+  {
+    title: "React Gallery",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "This application displays a gallery of employee profiles fetched from the Random User Generator API. Each employee card can be clicked to view detailed information in a modal window. Users can also filter employees by name using a search feature. Features: Gallery Display",
+    technologies: ["HTML", "CSS", "Javascript", "Api", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Canada",
+  phoneNo: "+1 613-220-7156",
+  email: "tonytany53@gmail.com",
 };

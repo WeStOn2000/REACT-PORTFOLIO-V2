@@ -5,8 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        bounce: "bounce 3s infinite",
+        hover: "hover 0.3s ease-in-out",
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(-5px)' },
+          '50%': { transform: 'translateY(0)' },
+        },
+        hover: {
+          '0%, 100%': { transform: 'translateY(-10px)' },
+        },
+      },
+    },
   },
   plugins: [],
 }
-
